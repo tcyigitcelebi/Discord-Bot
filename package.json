@@ -1,0 +1,14 @@
+{
+  "name": "ghost-hunter-bot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "author": "Yiğit",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
