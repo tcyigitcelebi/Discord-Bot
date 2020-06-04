@@ -90,7 +90,7 @@ client.on('message', msg => {
    webhook.send(':gem: gülümse');
   }
   if (msg.content === 'gülümse') {
-   webhook.send('https://media.tenor.com/images/d2d17da0fa1c4f89a37f2fd01a9565db/tenor.gif');
+   webhook.send('https://media.tenor.com/images/aa0b607e7fb740b74673963f8c6e9c61/tenor.gif');
   }
 });       //BOTUN
           //TOKENİ
