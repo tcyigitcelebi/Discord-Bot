@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const webhook = new Discord.WebhookClient('', '');
-                             //WEBHOOK   İD   TOKEN
+                             //WEBHOOK   İD , TOKEN
 client.on('ready', () => {
   console.log(`${client.user.tag} sunucuda çevrimiçi oldu`);
 });
@@ -85,7 +85,13 @@ client.on('message', msg => {
   }
   if (msg.content === 'komutlar') {
    webhook.send(':gem: köpek');
-  }     
+  }
+  if (msg.content === 'komutlar') {
+   webhook.send(':gem: gülümse');
+  }
+  if (msg.content === 'gülümse') {
+   webhook.send('https://media.tenor.com/images/d2d17da0fa1c4f89a37f2fd01a9565db/tenor.gif');
+  }
 });       //BOTUN
           //TOKENİ
 client.login('')
