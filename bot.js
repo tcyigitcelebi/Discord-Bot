@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const webhook = new Discord.WebhookClient('717748138663739442', 'sWKkU0xaqINzOwKIzjfey92N2915-yze4xPNQL3u4yhBjWOwednGC0nyVT2b-pkFkTOF');
-
+const webhook = new Discord.WebhookClient('', '');
+                             //WEBHOOK   İD   TOKEN
 client.on('ready', () => {
   console.log(`${client.user.tag} sunucuda çevrimiçi oldu`);
 });
@@ -85,7 +85,7 @@ client.on('message', msg => {
   }
   if (msg.content === 'komutlar') {
    webhook.send(':gem: köpek');
-  }
-});
-
-client.login('NzAxMzk1MTc1MzQ3MzIyOTAx.Xte1nA.I9f7QzlT1Ga0soqsmUNLZj-aMZY')
+  }     
+});       //BOTUN
+          //TOKENİ
+client.login('')
