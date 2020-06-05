@@ -3,7 +3,7 @@ const client = new Discord.Client();
 const webhook = new Discord.WebhookClient('', '');
                              //WEBHOOK   İD , TOKEN
 client.on('ready', () => {
-  console.log(`${client.user.tag} sunucuda çevrimiçi oldu`);
+  console.log(`Botun sunucuda çevrimiçi oldu`);
 });
 
 
@@ -15,22 +15,22 @@ client.on('message', msg => {
    webhook.send(':smiley: Merhaba');
   }
   if (msg.content === 'silahlar') {
-   webhook.send('AWP');
+   webhook.send(':gem: AWP');
   }
   if (msg.content === 'silahlar') {
-   webhook.send('Kar98');
+   webhook.send(':gem: Kar98');
   }
   if (msg.content === 'silahlar') {
-   webhook.send('M416');
+   webhook.send(':gem: M416');
   }
   if (msg.content === 'silahlar') {
-   webhook.send('AK47');
+   webhook.send(':gem: AK47');
   }
   if (msg.content === 'silahlar') {
-   webhook.send('Desert Eagle');
+   webhook.send(':gem: Desert Eagle');
   }
   if (msg.content === 'silahlar') {
-   webhook.send('Uzi');
+   webhook.send(':gem: Uzi');
   }
   if (msg.content === 'AWP') {
    webhook.send('https://static.wixstatic.com/media/3f2125_8aa973b3286e421cafad7bb21d848e10~mv2.png/v1/fill/w_660,h_371,al_c,q_90/3f2125_8aa973b3286e421cafad7bb21d848e10~mv2.webp');
@@ -51,16 +51,13 @@ client.on('message', msg => {
    webhook.send('https://www.pngitem.com/pimgs/m/131-1317406_uzi-png-uzi-micro-uzi-png-gta-transparent.png');
   }
   if (msg.content === 'şarkı öner') {
-   webhook.send(':white_check_mark: Bunlar hoşuna gidebilir');
+   webhook.send(':gem: Astronomia');
   }
   if (msg.content === 'şarkı öner') {
-   webhook.send('Astronomia');
+   webhook.send(':gem: Roxanne');
   }
   if (msg.content === 'şarkı öner') {
-   webhook.send('Roxanne');
-  }
-  if (msg.content === 'şarkı öner') {
-   webhook.send('Space Jump');
+   webhook.send(':gem: Space Jump');
   }
   if (msg.content === 'Roxanne') {
    webhook.send('https://www.youtube.com/watch?v=0-YlrjvEqoM');
